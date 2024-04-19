@@ -8,6 +8,7 @@ import { configDotenv } from "dotenv";
 const enteryourkey = import.meta.env.VITE_API_KEY;
 const enteryourapi = import.meta.env.VITE_API_API;
 
+
 function App() {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState(""); //Initially its set to null because the weather data hasn't been fetched yet.
