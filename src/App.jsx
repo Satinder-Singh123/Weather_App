@@ -3,10 +3,11 @@ import { useState, useEffect } from "react";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
-import { configDotenv } from "dotenv";
+
 
 const enteryourkey = import.meta.env.VITE_API_KEY;
 const enteryourapi = import.meta.env.VITE_API_API;
+
 
 
 function App() {
